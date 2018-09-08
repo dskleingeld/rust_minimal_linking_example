@@ -1,0 +1,10 @@
+[package]
+name = "rust_linking"
+version = "0.1.0"
+authors = ["David"]
+
+links = "test"
+#build = "build.rs"
+
+rustc-link-search = ["./Clibs/test"]
+rustc-link-lib = ["libtest"]
