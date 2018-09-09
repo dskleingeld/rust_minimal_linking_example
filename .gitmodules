@@ -1,0 +1,3 @@
+[submodule "with_crosscompiling/tools"]
+	path = with_crosscompiling/tools
+	url = https://github.com/raspberrypi/tools.git
